@@ -1,5 +1,4 @@
-url: "https://coderic.cloud" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Coderic Cloud" # the name of your site, e.g. ACME Corp.
+url: "https://coderic.cloud"
+title: "Coderic Cloud"
 network: "CLOUD"
 remote_theme: Coderic/coderic.org
