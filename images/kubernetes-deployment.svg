@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Kubernetes wheel icon -->
+  <g transform="translate(200, 100)">
+    <circle cx="0" cy="0" r="50" fill="#326CE5" opacity="0.2"/>
+    <circle cx="0" cy="0" r="10" fill="#326CE5"/>
+    
+    <!-- Spokes -->
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#326CE5" stroke-width="3"/>
+    <line x1="0" y1="0" x2="35" y2="-20" stroke="#326CE5" stroke-width="3"/>
+    <line x1="0" y1="0" x2="35" y2="20" stroke="#326CE5" stroke-width="3"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#326CE5" stroke-width="3"/>
+    <line x1="0" y1="0" x2="-35" y2="20" stroke="#326CE5" stroke-width="3"/>
+    <line x1="0" y1="0" x2="-35" y2="-20" stroke="#326CE5" stroke-width="3"/>
+    
+    <!-- End circles -->
+    <circle cx="0" cy="-40" r="5" fill="#326CE5"/>
+    <circle cx="35" cy="-20" r="5" fill="#326CE5"/>
+    <circle cx="35" cy="20" r="5" fill="#326CE5"/>
+    <circle cx="0" cy="40" r="5" fill="#326CE5"/>
+    <circle cx="-35" cy="20" r="5" fill="#326CE5"/>
+    <circle cx="-35" cy="-20" r="5" fill="#326CE5"/>
+  </g>
+  
+  <!-- Container pods -->
+  <g transform="translate(80, 200)">
+    <rect width="50" height="50" fill="#3b82f6" rx="4" opacity="0.8"/>
+    <rect x="5" y="5" width="40" height="18" fill="white" opacity="0.3" rx="2"/>
+    <rect x="5" y="27" width="40" height="18" fill="white" opacity="0.3" rx="2"/>
+    <circle cx="15" cy="14" r="2" fill="#10b981"/>
+    <circle cx="15" cy="36" r="2" fill="#10b981"/>
+  </g>
+  
+  <g transform="translate(165, 200)">
+    <rect width="50" height="50" fill="#3b82f6" rx="4" opacity="0.8"/>
+    <rect x="5" y="5" width="40" height="18" fill="white" opacity="0.3" rx="2"/>
+    <rect x="5" y="27" width="40" height="18" fill="white" opacity="0.3" rx="2"/>
+    <circle cx="15" cy="14" r="2" fill="#10b981"/>
+    <circle cx="15" cy="36" r="2" fill="#10b981"/>
+  </g>
+  
+  <g transform="translate(250, 200)">
+    <rect width="50" height="50" fill="#3b82f6" rx="4" opacity="0.8"/>
+    <rect x="5" y="5" width="40" height="18" fill="white" opacity="0.3" rx="2"/>
+    <rect x="5" y="27" width="40" height="18" fill="white" opacity="0.3" rx="2"/>
+    <circle cx="15" cy="14" r="2" fill="#10b981"/>
+    <circle cx="15" cy="36" r="2" fill="#10b981"/>
+  </g>
+  
+  <!-- Connections to K8s -->
+  <line x1="105" y1="200" x2="180" y2="140" stroke="#94a3b8" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="190" y1="200" x2="200" y2="140" stroke="#94a3b8" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="275" y1="200" x2="220" y2="140" stroke="#94a3b8" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- Label -->
+  <text x="200" y="285" text-anchor="middle" fill="#64748b" font-size="14" font-weight="bold">Container Orchestration</text>
+</svg>
