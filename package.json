@@ -1,0 +1,19 @@
+{
+  "name": "coderic-cloud",
+  "version": "1.0.0",
+  "description": "Coderic Cloud Services Website",
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve",
+    "clean": "jekyll clean"
+  },
+  "keywords": [
+    "jekyll",
+    "cloudflare",
+    "pages",
+    "cloud-services"
+  ],
+  "author": "Coderic",
+  "license": "MIT"
+}
+
