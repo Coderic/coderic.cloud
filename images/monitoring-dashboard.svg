@@ -52,6 +52,6 @@
     <text x="25" y="53" fill="#64748b" font-size="9">Database</text>
     <circle cx="15" cy="65" r="4" fill="#10b981"/>
     <text x="25" y="68" fill="#64748b" font-size="9">Cache</text>
-    <text x="120" y="50" fill="#10b981" font-size="14" font-weight="bold">?</text>
+    <text x="120" y="50" fill="#10b981" font-size="14" font-weight="bold">OK</text>
   </g>
 </svg>
