@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- App grid -->
+  <g transform="translate(100, 60)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="60" height="60" fill="#3b82f6" opacity="0.8" rx="8"/>
+    <text x="30" y="35" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="30" y="75" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Analytics</text>
+    
+    <rect x="75" y="0" width="60" height="60" fill="#10b981" opacity="0.8" rx="8"/>
+    <text x="105" y="35" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="105" y="75" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">CRM</text>
+    
+    <rect x="150" y="0" width="60" height="60" fill="#8b5cf6" opacity="0.8" rx="8"/>
+    <text x="180" y="35" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="180" y="75" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Email</text>
+    
+    <!-- Row 2 -->
+    <rect x="0" y="90" width="60" height="60" fill="#f59e0b" opacity="0.8" rx="8"/>
+    <text x="30" y="125" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="30" y="165" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Inventory</text>
+    
+    <rect x="75" y="90" width="60" height="60" fill="#ec4899" opacity="0.8" rx="8"/>
+    <text x="105" y="125" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="105" y="165" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Finance</text>
+    
+    <rect x="150" y="90" width="60" height="60" fill="#06b6d4" opacity="0.8" rx="8"/>
+    <text x="180" y="125" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="180" y="165" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">HR</text>
+    
+    <!-- Row 3 -->
+    <rect x="0" y="180" width="60" height="60" fill="#f97316" opacity="0.8" rx="8"/>
+    <text x="30" y="215" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="30" y="255" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Projects</text>
+    
+    <rect x="75" y="180" width="60" height="60" fill="#14b8a6" opacity="0.8" rx="8"/>
+    <text x="105" y="215" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="105" y="255" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Alerts</text>
+    
+    <rect x="150" y="180" width="60" height="60" fill="#6366f1" opacity="0.8" rx="8"/>
+    <text x="180" y="215" text-anchor="middle" fill="white" font-size="24">??</text>
+    <text x="180" y="255" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold">Settings</text>
+  </g>
+  
+  <!-- Feature badges -->
+  <g transform="translate(80, 30)">
+    <rect x="0" y="0" width="240" height="20" fill="#10b981" opacity="0.2" rx="10"/>
+    <text x="120" y="14" text-anchor="middle" fill="#10b981" font-size="11" font-weight="bold">? Integrated Business Suite</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="290" text-anchor="middle" fill="#1e293b" font-size="13" font-weight="bold">Enterprise Business Applications</text>
+</svg>

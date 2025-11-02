@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Central API Gateway -->
+  <g transform="translate(200, 150)">
+    <rect x="-60" y="-50" width="120" height="100" fill="#3b82f6" opacity="0.9" rx="8"/>
+    <text x="0" y="-20" text-anchor="middle" fill="white" font-size="16" font-weight="bold">API</text>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Gateway</text>
+    <text x="0" y="25" text-anchor="middle" fill="white" font-size="10" opacity="0.8">REST ? GraphQL</text>
+  </g>
+  
+  <!-- External services -->
+  <g transform="translate(60, 60)">
+    <rect width="70" height="50" fill="#10b981" opacity="0.8" rx="6"/>
+    <text x="35" y="30" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Payment</text>
+  </g>
+  
+  <g transform="translate(270, 60)">
+    <rect width="70" height="50" fill="#8b5cf6" opacity="0.8" rx="6"/>
+    <text x="35" y="30" text-anchor="middle" fill="white" font-size="11" font-weight="bold">CRM</text>
+  </g>
+  
+  <g transform="translate(60, 200)">
+    <rect width="70" height="50" fill="#f59e0b" opacity="0.8" rx="6"/>
+    <text x="35" y="30" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Auth</text>
+  </g>
+  
+  <g transform="translate(270, 200)">
+    <rect width="70" height="50" fill="#ec4899" opacity="0.8" rx="6"/>
+    <text x="35" y="30" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Storage</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <g>
+    <line x1="130" y1="85" x2="165" y2="115" stroke="#cbd5e1" stroke-width="3"/>
+    <line x1="270" y1="85" x2="235" y2="115" stroke="#cbd5e1" stroke-width="3"/>
+    <line x1="130" y1="225" x2="165" y2="185" stroke="#cbd5e1" stroke-width="3"/>
+    <line x1="270" y1="225" x2="235" y2="185" stroke="#cbd5e1" stroke-width="3"/>
+  </g>
+  
+  <!-- Data flow indicators -->
+  <circle cx="147" cy="100" r="4" fill="#10b981"/>
+  <circle cx="252" cy="100" r="4" fill="#8b5cf6"/>
+  <circle cx="147" cy="205" r="4" fill="#f59e0b"/>
+  <circle cx="252" cy="205" r="4" fill="#ec4899"/>
+  
+  <!-- Webhooks indicator -->
+  <g transform="translate(200, 260)">
+    <text x="0" y="0" text-anchor="middle" fill="#64748b" font-size="11">?? Webhooks ? OAuth ? JWT</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">API Integration Layer</text>
+</svg>
