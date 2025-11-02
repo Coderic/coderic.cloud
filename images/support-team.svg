@@ -43,16 +43,23 @@
     <text x="0" y="50" text-anchor="middle" fill="#64748b" font-size="10">Available</text>
   </g>
   
-  <!-- Support channels -->
+  <!-- Support channels with icons -->
   <g transform="translate(200, 200)">
+    <!-- Chat -->
     <rect x="-120" y="0" width="70" height="35" fill="#3b82f6" opacity="0.2" rx="4"/>
-    <text x="-85" y="23" text-anchor="middle" fill="#3b82f6" font-size="12" font-weight="bold">?? Chat</text>
+    <rect x="-95" y="10" width="20" height="12" fill="#3b82f6" opacity="0.6" rx="2"/>
+    <text x="-85" y="28" text-anchor="middle" fill="#3b82f6" font-size="10" font-weight="bold">Chat</text>
     
+    <!-- Email -->
     <rect x="-35" y="0" width="70" height="35" fill="#10b981" opacity="0.2" rx="4"/>
-    <text x="0" y="23" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">?? Email</text>
+    <rect x="-10" y="12" width="20" height="12" fill="none" stroke="#10b981" stroke-width="1.5"/>
+    <path d="M -10,12 L 0,18 L 10,12" fill="none" stroke="#10b981" stroke-width="1.5"/>
+    <text x="0" y="32" text-anchor="middle" fill="#10b981" font-size="10" font-weight="bold">Email</text>
     
+    <!-- Phone -->
     <rect x="50" y="0" width="70" height="35" fill="#8b5cf6" opacity="0.2" rx="4"/>
-    <text x="85" y="23" text-anchor="middle" fill="#8b5cf6" font-size="12" font-weight="bold">?? Phone</text>
+    <path d="M 78,12 Q 76,10 78,8 Q 80,6 82,8 L 84,10 Q 86,12 84,14 L 82,16 Q 78,20 74,16 L 72,14 Q 70,12 72,10 Z" fill="#8b5cf6"/>
+    <text x="85" y="32" text-anchor="middle" fill="#8b5cf6" font-size="10" font-weight="bold">Phone</text>
   </g>
   
   <!-- 24/7 badge -->
@@ -63,5 +70,5 @@
   </g>
   
   <!-- Response time -->
-  <text x="200" y="270" text-anchor="middle" fill="#64748b" font-size="12">? Average Response Time: &lt; 2 minutes</text>
+  <text x="200" y="270" text-anchor="middle" fill="#64748b" font-size="12">? Average Response: &lt; 2 min</text>
 </svg>

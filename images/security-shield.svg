@@ -13,27 +13,36 @@
   </g>
   
   <!-- Security features around shield -->
+  <!-- Encryption (Lock icon) -->
   <g transform="translate(80, 130)">
     <circle cx="0" cy="0" r="25" fill="#3b82f6" opacity="0.2"/>
-    <text x="0" y="5" text-anchor="middle" fill="#3b82f6" font-size="20">??</text>
+    <rect x="-8" y="-2" width="16" height="12" fill="#3b82f6" rx="2"/>
+    <path d="M -6,-2 L -6,-6 Q -6,-10 0,-10 Q 6,-10 6,-6 L 6,-2" stroke="#3b82f6" stroke-width="2" fill="none"/>
     <text x="0" y="40" text-anchor="middle" fill="#64748b" font-size="9">Encryption</text>
   </g>
   
+  <!-- Firewall (Shield icon) -->
   <g transform="translate(320, 130)">
     <circle cx="0" cy="0" r="25" fill="#8b5cf6" opacity="0.2"/>
-    <text x="0" y="5" text-anchor="middle" fill="#8b5cf6" font-size="20">???</text>
+    <path d="M 0,-10 L 8,-7 L 8,2 Q 8,8 0,10 Q -8,8 -8,2 L -8,-7 Z" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="1.5"/>
     <text x="0" y="40" text-anchor="middle" fill="#64748b" font-size="9">Firewall</text>
   </g>
   
+  <!-- Monitoring (Eye icon) -->
   <g transform="translate(140, 230)">
     <circle cx="0" cy="0" r="25" fill="#f97316" opacity="0.2"/>
-    <text x="0" y="5" text-anchor="middle" fill="#f97316" font-size="20">???</text>
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="none" stroke="#f97316" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#f97316"/>
     <text x="0" y="40" text-anchor="middle" fill="#64748b" font-size="9">Monitoring</text>
   </g>
   
+  <!-- Access Control (Key icon) -->
   <g transform="translate(260, 230)">
     <circle cx="0" cy="0" r="25" fill="#ec4899" opacity="0.2"/>
-    <text x="0" y="5" text-anchor="middle" fill="#ec4899" font-size="20">??</text>
+    <circle cx="-5" cy="0" r="4" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <rect x="-1" y="-1" width="8" height="2" fill="#ec4899"/>
+    <rect x="3" y="-3" width="2" height="2" fill="#ec4899"/>
+    <rect x="5" y="-3" width="2" height="2" fill="#ec4899"/>
     <text x="0" y="40" text-anchor="middle" fill="#64748b" font-size="9">Access</text>
   </g>
   
