@@ -46,7 +46,7 @@
   
   <!-- Webhooks indicator -->
   <g transform="translate(200, 260)">
-    <text x="0" y="0" text-anchor="middle" fill="#64748b" font-size="11">?? Webhooks ? OAuth ? JWT</text>
+    <text x="0" y="0" text-anchor="middle" fill="#64748b" font-size="11">Webhooks ? OAuth ? JWT</text>
   </g>
   
   <!-- Title -->

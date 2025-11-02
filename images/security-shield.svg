@@ -53,5 +53,5 @@
   <line x1="235" y1="205" x2="200" y2="180" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4"/>
   
   <!-- Status -->
-  <text x="200" y="20" text-anchor="middle" fill="#10b981" font-size="16" font-weight="bold">? Protected</text>
+  <text x="200" y="20" text-anchor="middle" fill="#10b981" font-size="16" font-weight="bold">Protected</text>
 </svg>
