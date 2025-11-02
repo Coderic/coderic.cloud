@@ -67,6 +67,6 @@
   <text x="320" y="150" text-anchor="middle" fill="#64748b" font-size="10">Output</text>
   
   <!-- Title -->
-  <text x="200" y="260" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">Machine Learning & AI</text>
+  <text x="200" y="260" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">Machine Learning &amp; AI</text>
   <text x="200" y="280" text-anchor="middle" fill="#64748b" font-size="11">Neural Network Processing</text>
 </svg>
