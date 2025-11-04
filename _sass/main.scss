@@ -7,9 +7,10 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
-@theme {
-    --font-sans: 'Red Hat Display', ui-sans, system-ui, sans, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-        'Noto Color Emoji';
+
+/* CSS custom properties moved to inline styles or removed - not compatible with Sass */
+:root {
+    --font-sans: 'Red Hat Display', ui-sans, system-ui, sans, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 [x-cloak] {
