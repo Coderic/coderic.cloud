@@ -2,3 +2,7 @@ url: "https://coderic.cloud"
 title: "Coderic Cloud"
 network: "CLOUD"
 remote_theme: Coderic/coderic.org
+
+# Forzar actualizaci?n del tema remoto
+plugins:
+  - jekyll-remote-theme
