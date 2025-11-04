@@ -4,5 +4,5 @@ ruby "~> 3.4.0"
 
 gem "jekyll", "~> 4.4"
 gem "jekyll-remote-theme", "~> 0.4.3"
-gem "jekyll-sass-converter", "~> 3.0.0"
+gem "jekyll-sass-converter", "~> 3.0"
 gem "webrick", "~> 1.8"
