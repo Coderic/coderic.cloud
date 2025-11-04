@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-ruby "~> 3.1.0"
+ruby "~> 3.4.0"
 
 gem "jekyll", "~> 4.3"
 gem "jekyll-remote-theme"
-gem "sass-embedded", "1.77.8"
+# sass-embedded se instalar? autom?ticamente como dependencia de jekyll-sass-converter
