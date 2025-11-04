@@ -6,7 +6,7 @@ command = "bundle exec jekyll build"
 output_directory = "_site"
 
 [build.environment]
-RUBY_VERSION = "3.1.3"
+# RUBY_VERSION = "3.1.3"  # Comentado para usar Ruby pre-instalado en Cloudflare Pages
 
 [[headers]]
 for = "/*"
