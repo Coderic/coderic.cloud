@@ -6,6 +6,9 @@ command = "bundle exec jekyll build"
 output_directory = "_site"
 
 [build.environment]
+BUNDLE_WITHOUT = "development test"
+
+[build.environment]
 RUBY_VERSION = "3.4.4"
 
 [[headers]]
