@@ -2,5 +2,9 @@
 # This file is automatically detected by Cloudflare Pages
 
 jekyll:
-  version: 4.3
+  version: 4.4
+
+build:
+  command: bundle exec jekyll build
+  output_directory: _site
 
