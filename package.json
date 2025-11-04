@@ -7,6 +7,10 @@
     "serve": "bundle exec jekyll serve",
     "clean": "jekyll clean"
   },
+  "cloudflare": {
+    "buildCommand": "bundle exec jekyll build",
+    "buildOutputDirectory": "_site"
+  },
   "keywords": [
     "jekyll",
     "cloudflare",
