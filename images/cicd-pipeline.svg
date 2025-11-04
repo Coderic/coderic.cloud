@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Pipeline stages -->
+  <g transform="translate(30, 100)">
+    <!-- Stage 1: Code -->
+    <rect width="60" height="80" fill="#3b82f6" rx="6" opacity="0.9"/>
+    <text x="30" y="25" text-anchor="middle" fill="white" font-size="24">&#60;/&#62;</text>
+    <text x="30" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">CODE</text>
+    <circle cx="30" cy="70" r="3" fill="#10b981"/>
+  </g>
+  
+  <!-- Arrow -->
+  <polygon points="100,135 110,130 110,140" fill="#f97316"/>
+  <line x1="95" y1="135" x2="110" y2="135" stroke="#f97316" stroke-width="2"/>
+  
+  <!-- Stage 2: Build -->
+  <g transform="translate(120, 100)">
+    <rect width="60" height="80" fill="#8b5cf6" rx="6" opacity="0.9"/>
+    <rect x="15" y="15" width="30" height="30" fill="white" opacity="0.3" rx="2"/>
+    <text x="30" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">BUILD</text>
+    <circle cx="30" cy="70" r="3" fill="#10b981"/>
+  </g>
+  
+  <!-- Arrow -->
+  <polygon points="190,135 200,130 200,140" fill="#f97316"/>
+  <line x1="185" y1="135" x2="200" y2="135" stroke="#f97316" stroke-width="2"/>
+  
+  <!-- Stage 3: Test -->
+  <g transform="translate(210, 100)">
+    <rect width="60" height="80" fill="#10b981" rx="6" opacity="0.9"/>
+    <circle cx="30" cy="25" r="12" fill="white" opacity="0.3"/>
+    <path d="M 22,25 L 28,31 L 40,18" stroke="white" stroke-width="2" fill="none"/>
+    <text x="30" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">TEST</text>
+    <circle cx="30" cy="70" r="3" fill="#10b981"/>
+  </g>
+  
+  <!-- Arrow -->
+  <polygon points="280,135 290,130 290,140" fill="#f97316"/>
+  <line x1="275" y1="135" x2="290" y2="135" stroke="#f97316" stroke-width="2"/>
+  
+  <!-- Stage 4: Deploy -->
+  <g transform="translate(300, 100)">
+    <rect width="70" height="80" fill="#f97316" rx="6" opacity="0.9"/>
+    <polygon points="35,15 50,30 35,45 20,30" fill="white" opacity="0.3"/>
+    <text x="35" y="58" text-anchor="middle" fill="white" font-size="10" font-weight="bold">DEPLOY</text>
+    <circle cx="35" cy="70" r="3" fill="#10b981"/>
+  </g>
+  
+  <!-- Automation indicator -->
+  <g transform="translate(160, 30)">
+    <path d="M 0,0 Q 20,-10 40,0" stroke="#f97316" stroke-width="2" fill="none"/>
+    <polygon points="40,0 35,-3 35,3" fill="#f97316"/>
+    <text x="20" y="20" text-anchor="middle" fill="#64748b" font-size="11" font-weight="bold">Automated</text>
+  </g>
+  
+  <!-- Status -->
+  <text x="200" y="230" text-anchor="middle" fill="#10b981" font-size="16" font-weight="bold">Pipeline Active</text>
+  <text x="200" y="250" text-anchor="middle" fill="#64748b" font-size="12">Continuous Integration &amp; Deployment</text>
+</svg>

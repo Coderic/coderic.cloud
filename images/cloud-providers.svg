@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- AWS logo representation -->
+  <g transform="translate(60, 60)">
+    <rect width="90" height="70" fill="#FF9900" rx="8" opacity="0.9"/>
+    <path d="M 20,30 L 30,15 L 40,30 L 50,20 L 60,35 L 70,25" stroke="white" stroke-width="3" fill="none"/>
+    <text x="45" y="60" text-anchor="middle" fill="white" font-size="14" font-weight="bold">AWS</text>
+  </g>
+  
+  <!-- Azure logo representation -->
+  <g transform="translate(155, 140)">
+    <rect width="90" height="70" fill="#0078D4" rx="8" opacity="0.9"/>
+    <polygon points="30,20 50,50 10,50" fill="white" opacity="0.9"/>
+    <rect x="50" y="35" width="30" height="15" fill="white" opacity="0.7"/>
+    <text x="45" y="65" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Azure</text>
+  </g>
+  
+  <!-- Google Cloud logo representation -->
+  <g transform="translate(250, 60)">
+    <rect width="90" height="70" fill="#4285F4" rx="8" opacity="0.9"/>
+    <circle cx="30" cy="30" r="15" fill="white" opacity="0.3"/>
+    <circle cx="60" cy="30" r="15" fill="white" opacity="0.5"/>
+    <circle cx="45" cy="40" r="15" fill="white" opacity="0.7"/>
+    <text x="45" y="65" text-anchor="middle" fill="white" font-size="12" font-weight="bold">GCP</text>
+  </g>
+  
+  <!-- Cloudflare representation -->
+  <g transform="translate(140, 50)">
+    <circle cx="0" cy="0" r="35" fill="#F6821F" opacity="0.2"/>
+    <path d="M-20,-5 Q-10,-15 0,-15 Q10,-15 20,-5 L15,5 Q10,0 0,0 Q-10,0 -15,5 Z" fill="#F6821F" opacity="0.8"/>
+    <text x="0" y="45" text-anchor="middle" fill="#F6821F" font-size="10" font-weight="bold">CDN</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <g opacity="0.5">
+    <path d="M 105 95 Q 200 120, 200 175" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+    <path d="M 150 95 Q 200 120, 295 95" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+    <path d="M 245 175 Q 250 150, 295 95" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+  </g>
+  
+  <!-- Multi-cloud text -->
+  <text x="200" y="250" text-anchor="middle" fill="#64748b" font-size="18" font-weight="bold">Multi-Cloud Infrastructure</text>
+</svg>

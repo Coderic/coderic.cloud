@@ -1,0 +1,6 @@
+# Cloudflare Pages Build Configuration for Jekyll
+# This file is automatically detected by Cloudflare Pages
+
+jekyll:
+  version: 4.3
+

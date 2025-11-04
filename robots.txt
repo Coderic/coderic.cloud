@@ -1,0 +1,37 @@
+# robots.txt for https://coderic.cloud
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://coderic.cloud/sitemap.xml
+
+# Crawl-delay for courtesy
+Crawl-delay: 1
+
+# Block access to specific paths if needed
+Disallow: /callback
+Disallow: /logout
+Disallow: /dashboard
+
+# Major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /

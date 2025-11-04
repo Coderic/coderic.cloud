@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Dashboard frame -->
+  <rect x="30" y="30" width="340" height="240" fill="white" stroke="#cbd5e1" stroke-width="2" rx="8"/>
+  
+  <!-- Header bar -->
+  <rect x="30" y="30" width="340" height="40" fill="#1e293b" rx="8"/>
+  <rect x="30" y="50" width="340" height="20" fill="#1e293b"/>
+  <circle cx="50" cy="50" r="5" fill="#ef4444"/>
+  <circle cx="70" cy="50" r="5" fill="#f59e0b"/>
+  <circle cx="90" cy="50" r="5" fill="#10b981"/>
+  <text x="200" y="55" text-anchor="middle" fill="white" font-size="14" font-weight="bold">System Monitor</text>
+  
+  <!-- CPU Graph -->
+  <g transform="translate(50, 90)">
+    <rect width="140" height="70" fill="#f1f5f9" rx="4"/>
+    <text x="5" y="15" fill="#64748b" font-size="11" font-weight="bold">CPU Usage</text>
+    <polyline points="10,60 25,50 40,55 55,40 70,45 85,35 100,40 115,30 130,35" 
+              stroke="#3b82f6" stroke-width="2" fill="none"/>
+    <text x="120" y="65" fill="#10b981" font-size="12" font-weight="bold">45%</text>
+  </g>
+  
+  <!-- Memory Graph -->
+  <g transform="translate(210, 90)">
+    <rect width="140" height="70" fill="#f1f5f9" rx="4"/>
+    <text x="5" y="15" fill="#64748b" font-size="11" font-weight="bold">Memory</text>
+    <polyline points="10,50 25,48 40,52 55,45 70,47 85,42 100,44 115,40 130,38" 
+              stroke="#8b5cf6" stroke-width="2" fill="none"/>
+    <text x="120" y="65" fill="#10b981" font-size="12" font-weight="bold">62%</text>
+  </g>
+  
+  <!-- Network Traffic -->
+  <g transform="translate(50, 180)">
+    <rect width="140" height="70" fill="#f1f5f9" rx="4"/>
+    <text x="5" y="15" fill="#64748b" font-size="11" font-weight="bold">Network I/O</text>
+    <rect x="10" y="30" width="8" height="25" fill="#10b981"/>
+    <rect x="25" y="35" width="8" height="20" fill="#10b981"/>
+    <rect x="40" y="25" width="8" height="30" fill="#10b981"/>
+    <rect x="55" y="32" width="8" height="23" fill="#10b981"/>
+    <rect x="70" y="28" width="8" height="27" fill="#10b981"/>
+    <text x="95" y="50" fill="#64748b" font-size="10">Upload: 124 MB/s</text>
+  </g>
+  
+  <!-- Active Services -->
+  <g transform="translate(210, 180)">
+    <rect width="140" height="70" fill="#f1f5f9" rx="4"/>
+    <text x="5" y="15" fill="#64748b" font-size="11" font-weight="bold">Services</text>
+    <circle cx="15" cy="35" r="4" fill="#10b981"/>
+    <text x="25" y="38" fill="#64748b" font-size="9">API Gateway</text>
+    <circle cx="15" cy="50" r="4" fill="#10b981"/>
+    <text x="25" y="53" fill="#64748b" font-size="9">Database</text>
+    <circle cx="15" cy="65" r="4" fill="#10b981"/>
+    <text x="25" y="68" fill="#64748b" font-size="9">Cache</text>
+    <text x="120" y="50" fill="#10b981" font-size="14" font-weight="bold">OK</text>
+  </g>
+</svg>
