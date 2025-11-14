@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
-ruby "~> 3.4.0"
-
 gem "jekyll", "~> 4.4"
-gem "jekyll-remote-theme", "~> 0.4.3"
-gem "jekyll-sass-converter", "~> 3.0"
-gem "webrick", "~> 1.8"
+gem "jekyll-remote-theme", ">= 0.4.3"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
+gem "jekyll-feed"
+gem "jekyll-github-metadata"
+gem "webrick"

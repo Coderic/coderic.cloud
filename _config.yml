@@ -1,8 +1,73 @@
 url: "https://coderic.cloud"
-title: "Coderic Cloud"
+baseurl: ""
+title: "Coderic"
+description: "Comprehensive cloud services and infrastructure solutions"
 network: "CLOUD"
-remote_theme: Coderic/coderic.org
 
-# Forzar actualizaci?n del tema remoto
+# Theme
+remote_theme: Coderic/jekyll-theme-coderic
+
+# Logo
+logo: "/images/logo.svg"
+
+# Navigation
+navigation:
+  - label: "Software"
+    url: "/software"
+  - label: "Platform"
+    url: "/platform"
+  - label: "Infrastructure"
+    url: "/infrastructure"
+  - label: "Big Data"
+    url: "/big-data"
+  - label: "Large Scale"
+    url: "/large-scale"
+
+# Footer Links
+footer_links:
+  - label: "Documentation"
+    url: "https://github.com/Coderic/coderic.cloud"
+
+# Legal URLs
+privacy_url: "/privacy"
+legal_url: "/legal"
+tos_url: "/tos"
+
+# Auth URLs
+profile_url: "/profile"
+dashboard_url: "/dashboard"
+
+# Plugins
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-github-metadata
+
+# Sass configuration
+sass:
+  style: compressed
+  sourcemap: never
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .asset-cache
+  - .jekyll-assets-cache
+  - .bundle
+  - package.json
+  - package-lock.json
+  - build.sh
+  - deploy.sh
+  - deploy.bat
+  - cloudflare.toml
+  - DEPLOY_INSTRUCTIONS.md
+  - DEPLOY_WRANGLER.md
+  - DEPLOYMENT_SUMMARY.md
+  - QUICKSTART.md
+  - README_DEPLOY.md

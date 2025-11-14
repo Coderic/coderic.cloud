@@ -2,7 +2,7 @@
 # Documentation: https://developers.cloudflare.com/pages/platform/build-configuration/
 
 [build]
-command = "bash build.sh"
+command = "bundle exec jekyll build"
 output_directory = "_site"
 
 [build.environment]
