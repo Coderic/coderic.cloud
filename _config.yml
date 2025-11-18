@@ -11,18 +11,31 @@ remote_theme: Coderic/jekyll-theme-coderic
 # Logo
 logo: "/images/logo.svg"
 
-# Navigation
+# Navigation (compatible with flyout menu)
 navigation:
-  - label: "Software"
-    url: "/software"
-  - label: "Platform"
-    url: "/platform"
-  - label: "Infrastructure"
-    url: "/infrastructure"
-  - label: "Big Data"
-    url: "/big-data"
-  - label: "Large Scale"
-    url: "/large-scale"
+  - label: "Inicio"
+    url: "/"
+  - label: "Servicios"
+    url: "/#services"
+    has_flyout: true
+    flyout_sections:
+      - title: "Servicios Cloud"
+        links:
+          - label: "Software"
+            url: "/software"
+            description: "Soluciones de software en la nube"
+          - label: "Platform"
+            url: "/platform"
+            description: "Plataformas cloud escalables"
+          - label: "Infrastructure"
+            url: "/infrastructure"
+            description: "Infraestructura como servicio"
+          - label: "Big Data"
+            url: "/big-data"
+            description: "Soluciones de big data y analytics"
+          - label: "Large Scale"
+            url: "/large-scale"
+            description: "Sistemas de gran escala"
 
 # Footer Links
 footer_links:
